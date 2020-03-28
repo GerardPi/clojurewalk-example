@@ -1,0 +1,55 @@
+= Clojure Walk Example
+
+== Origin of this code
+
+This is the code as explained by Daw-Ran Liou on
+https://www.youtube.com/channel/UCj1qlRI5WHAASFw6BeIw_ew
+
+== What it is
+
+It is an example of how to use Integrant and Reitit in Clojure to create a simple modulear RESTful API.
+
+=== Integrant
+
+A micro-framework for building Clojure applications with a modular data-driven architecture.
+
+.Alternative to:
+* Stuart Sierra's Component
+* Mount
+* Mount-lite
+
+https://github.com/weavejester/integrant
+
+=== Reitit
+
+A routing library.
+
+.Alternative to:
+* Ataraxy
+* Bidi
+* Compojure
+
+https://github.com/metosin/reitit
+
+== How to run it
+
+You can run it from Intellij IDEA with the Cursive plugin.
+Define a runner for the Clojure REPL and then interact with the REPL like this:
+
+   (go)
+
+You should then be able to open a browser and view the Swagger definitions using URL http://locahost:3000/
+
+== Why is it useful
+
+It is an example of usage of integrant without Duct.
+Duct is very nice. However, this example helps understanding how to use Integrant.
+
+== References
+
+* https://www.clojure.org
+* https://github.com/duct-framework/duct/wiki/Getting-Started
+* https://github.com/tolitius/mount
+* https://github.com/juxt/bidi
+* https://github.com/stuartsierra/component
+
